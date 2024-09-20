@@ -2,7 +2,7 @@
 #CIS129
 #Creator: Faith Moses
 
-# What are you purchasing
+# What are you purchasing via naming
 nameOfItem = 'Coffees'
 nameOfItem_2 = 'Muffins'
 nameOfItem_3 = 'Tea'
@@ -29,7 +29,7 @@ bagelTotalCost = numberOfItemsPurchased_4 * priceOfItem_4
 
 
 taxOfTotal = (coffeeTotalCost + muffinTotalCost
-               + teaTotalCost +bagelTotalCost) * 0.06
+               + teaTotalCost + bagelTotalCost) * 0.06
 
 #Display Receipt to Customer
 print('***************************************************')
