@@ -58,4 +58,6 @@ print('                           ----------------------')
 print('Total:                     $', (coffeeTotalCost + muffinTotalCost 
                                        + teaTotalCost + bagelTotalCost 
                                        + taxOfTotal))
+print('Thank you for shopping at our Breakfast Shop!
+      Have a Wonderful day!')
 print('*****************************************************')
