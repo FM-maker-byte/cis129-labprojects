@@ -11,7 +11,6 @@ nameOfItem_3 = 'Tea'
 nameOfItem_4 = 'Bagels'
 
 #Getting Input
-
 print('Please enter the number of items bought')
 numberOfItemsPurchased = int(input('Number of Coffees Purchased: '))
 numberOfItemsPurchased_2 = int(input('Number of Muffins Purchased: '))
