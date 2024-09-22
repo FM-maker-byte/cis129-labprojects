@@ -2,8 +2,6 @@
 #CIS129
 #Creator: Faith Moses
 
-# What are you purchasing via naming
-=======
 # What are you purchasing
 nameOfItem = 'Coffees'
 nameOfItem_2 = 'Muffins'
@@ -29,10 +27,8 @@ teaTotalCost = numberOfItemsPurchased_3 * priceOfItem_3
 bagelTotalCost = numberOfItemsPurchased_4 * priceOfItem_4
 
 
-taxOfTotal = (coffeeTotalCost + muffinTotalCos
+taxOfTotal = (coffeeTotalCost + muffinTotalCost
                + teaTotalCost + bagelTotalCost) * 0.06
-=======
-               + teaTotalCost +bagelTotalCost) * 0.06
 
 #Display Receipt to Customer
 print('***************************************************')
@@ -46,6 +42,8 @@ print('Number of Bagels bought?', numberOfItemsPurchased_4)
 print('*****************************************************')
 print('*****************************************************')
 print('My Breakfast Shop Receipt')
+print('--------------------------')
+
 print(numberOfItemsPurchased, nameOfItem, 'at',
       priceOfItem, 'each:         $', coffeeTotalCost)
 print(numberOfItemsPurchased_2, nameOfItem_2, 'at',
@@ -55,14 +53,14 @@ print(numberOfItemsPurchased_3, nameOfItem_3, 'at',
 print(numberOfItemsPurchased_4, nameOfItem_4, 'at',
       priceOfItem_4, 'each:          $', bagelTotalCost)
 
-
 print('6% tax:                      $', taxOfTotal)
 print('                           ----------------------')
 print('Total:                     $', (coffeeTotalCost + muffinTotalCost 
                                        + teaTotalCost + bagelTotalCost 
                                        + taxOfTotal))
+print('*****************************************************')
 print('Thank you for shopping at our Breakfast Shop!',
       'Have a Wonderful day!')
 print('*****************************************************')
-=======
-print('*****************************************************') 
+
+print('*****************************************************')  
