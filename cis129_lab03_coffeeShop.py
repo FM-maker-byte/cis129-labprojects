@@ -2,6 +2,8 @@
 #CIS129
 #Creator: Faith Moses
 
+# What are you purchasing via naming
+=======
 # What are you purchasing
 nameOfItem = 'Coffees'
 nameOfItem_2 = 'Muffins'
@@ -11,16 +13,16 @@ nameOfItem_4 = 'Bagels'
 #Getting Input
 
 print('Please enter the number of items bought')
-numberOfItemsPurchased = int(input('Number of Coffees Purchased'))
-numberOfItemsPurchased_2 = int(input('Number of Muffins Purchased'))
-numberOfItemsPurchased_3 = int(input('Number of Tea Purchased'))
-numberOfItemsPurchased_4 = int(input('Number of Bagels Purchased'))
+numberOfItemsPurchased = int(input('Number of Coffees Purchased: '))
+numberOfItemsPurchased_2 = int(input('Number of Muffins Purchased: '))
+numberOfItemsPurchased_3 = int(input('Number of Tea Purchased: '))
+numberOfItemsPurchased_4 = int(input('Number of Bagels Purchased: '))
 
 print('Please enter the price of the item')
-priceOfItem = int(input('Price of Coffee'))
-priceOfItem_2 = int(input('Price of Muffins'))
-priceOfItem_3 = int(input('Price of Tea'))
-priceOfItem_4 = int(input('Price of Bagels'))
+priceOfItem = int(input('Price of Coffee: '))
+priceOfItem_2 = int(input('Price of Muffins: '))
+priceOfItem_3 = int(input('Price of Tea: '))
+priceOfItem_4 = int(input('Price of Bagels: '))
 
 coffeeTotalCost = numberOfItemsPurchased * priceOfItem
 muffinTotalCost = numberOfItemsPurchased_2 * priceOfItem_2
@@ -28,7 +30,9 @@ teaTotalCost = numberOfItemsPurchased_3 * priceOfItem_3
 bagelTotalCost = numberOfItemsPurchased_4 * priceOfItem_4
 
 
-taxOfTotal = (coffeeTotalCost + muffinTotalCost
+taxOfTotal = (coffeeTotalCost + muffinTotalCos
+               + teaTotalCost + bagelTotalCost) * 0.06
+=======
                + teaTotalCost +bagelTotalCost) * 0.06
 
 #Display Receipt to Customer
@@ -60,4 +64,6 @@ print('Total:                     $', (coffeeTotalCost + muffinTotalCost
                                        + taxOfTotal))
 print('Thank you for shopping at our Breakfast Shop!',
       'Have a Wonderful day!')
+print('*****************************************************')
+=======
 print('*****************************************************') 
