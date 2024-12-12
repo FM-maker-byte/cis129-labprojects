@@ -1,0 +1,136 @@
+# Final Project Pseudocode
+# CIS 129
+# Faith Moses
+# 12/18/2024
+
+# Import CSV
+# Import Pandas (optional Matplotlib import)
+
+# Class Animal
+   # Set total_animal to 0
+
+    # def initialization
+        # self name
+        # self age
+        # self adopted is false
+        # total animal += 1
+
+   # def adopt 
+        # if not self adopted 
+            # self adopted = True
+            # total animal -= 1
+            # print (name) is now adopted
+        # else
+            #print (name) is already adopted
+
+    # Class Method
+    # def total count cls
+        # print the total amount of animals in shelter
+
+    # Def string cls
+         # status of is adopted
+         # return name, age, status 
+
+
+# Class Dog in Animal
+    #def initialization
+        # super initial (name, age)
+        # self breed
+
+    # def string self
+        # status of is adopted
+        # return name, breed, age, status
+
+
+# Class Cat in Animal
+    # def initialization
+        # super initial (name, age)
+        # self breed
+    # def string self
+        # status of is adopted
+        # return name, breed, age, status
+
+
+# Class Shelter
+    # Def initialization 
+        # self animals tuple = 0
+    # Def add_animal 
+        # try
+            # Input animal type
+            # Input name
+            # Input Age
+            # Input Breed
+
+            # If animal type == dog
+                # animal = Dog(name, age, breed)
+            # elif animal type == cat
+                # animal = Dog(name, age, breed)
+            # else:
+                # print invalid animal type
+                # return nothing
+
+            # self animal append 
+            # return animal type, name, age, and breed
+        # except valueerror
+            # print invalid age input, must be a integar
+            # return none
+
+    # def adopt animal (self, name)
+        # animal = one that not is adopted
+        # if animal
+            # adopt animal
+        # else
+            # print animal isn't avaliable or is adopted already
+
+
+# def main ()
+    # shelter = class Shelter
+    # csv animal file
+
+    # while true
+        #print Shelter Menu Options
+        # 1 Display animals
+        # 2 Add animal
+        # 3 Adopt an animal
+        # 4 Show total animals
+        # 5 Exit
+
+        # Input Choice
+
+        # if choice 1
+            # try
+                # pd read CSV
+                # if pd CSV empty
+                    # print no data found
+                # else
+                   # print 
+            # except file not found
+                # print please creat file and input data
+
+        # elif choice 2
+            # open new file to write and append
+                # write to a new file
+                # while true
+                    # add animal data input
+                    # if data is added
+                        # write into the file
+                    # repeat input (Do you want another to add another animal?)
+                    # if not yes
+                        # break
+
+        # elif choice 3
+            # input name
+            # adopt animal name
+
+        # elif choice 4
+            # animal total count
+
+        # elif choice 5
+            # print exiting or closing
+            # break
+
+        # else 
+            # print invalid choice, try again
+
+
+# close main()
